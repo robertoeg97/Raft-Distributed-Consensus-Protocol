@@ -6,7 +6,7 @@
 
 This project implements a distributed consensus protocol using the Raft algorithm within the DSLabs framework. The goal was to design a fault-tolerant, replicated state machine that maintains strong consistency across a group of servers, even in the presence of network failures or server crashes.
 
-While the original assignment referenced Paxos, I chose to implement Raft due to its clarity, modularity, and practical advantages in real-world systems. Raft's leader-based approach enables efficient log replication with a single round-trip time (RTT) for steady-state client operations, amortizing the cost of leader election over many log entries. This design choice reflects industry trends favoring leader-based consensus for its operational simplicity and performance.
+I chose to implement Raft over Paxos due to its clarity, modularity, and practical advantages in real-world systems. Raft's leader-based approach enables efficient log replication with a single round-trip time (RTT) for steady-state client operations, amortizing the cost of leader election over many log entries. This design choice reflects industry trends favoring leader-based consensus for its operational simplicity and performance.
 
 ## Problem Statement
 
