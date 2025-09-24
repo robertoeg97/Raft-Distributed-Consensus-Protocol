@@ -1,6 +1,6 @@
 # Distributed Consensus with Raft
 
- Due to academic integrity, the project source code and detailed report are private. This public summary outlines the core objectives, challenges, and achievements. Code/reports cannot be shared, even on request.
+The project source code and detailed report are private and can be shared conditionally upon request. This public summary outlines the core objectives, challenges, and achievements.
 
 ## Project Overview
 
